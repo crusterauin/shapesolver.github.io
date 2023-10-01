@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShapeSolver</title>
+    <link rel="stylesheet" href="3D.css" />
+    <link rel="icon" type="image/x-icon" href="Group 14.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <div class="kontainer animate__animated animate__fadeInDown">
+      <nav class="wrapper">
+        <div class="brand">
+          <div class="pertama">
+            <a href="main.html" class="brando">ShapeSolver</a>
+          </div>
+        </div>
+        <ul class="navigation">
+          <li><a href="about.html" class="active">About</a></li>
+        </ul>
+      </nav>
+    </div>
+      <div class="tigaDimensi animate__animated animate__zoomIn">
+        <label for="shapeSelect" class="bentuk">Kalkulator Bangun Ruang</label>
+        <select id="shapeSelect">
+            <option value="kosong">Pilih bangun di sini</option>
+            <option value="kubus">Kubus</option>
+            <option value="balok">Balok</option> 
+            <option value="tabung">Tabung</option>
+            <option value="limasSegiempat">Limas Segi Empat</option>
+            <option value="limasSegitiga">Limas Segi Tiga</option>
+            <option value="prismaSegitiga">Prisma Segitiga</option>
+            <option value="kerucut">Kerucut</option>
+            <option value="bola">Bola</option>
+            <option value="prismaSegienamBeraturan">Prisma Segienam Beraturan</option>
+        </select>
+
+        <select id="satuan">
+          <option value="kosong">--Pilih satuan di sini--</option>
+          <option value="kiloMeter">km</option>
+          <option value="hektoMeter">hm</option>
+          <option value="dekaMeter">dam</option>
+          <option value="meter">m</option>
+          <option value="desiMeter">dm</option>
+          <option value="centiMeter">cm</option>
+          <option value="miliMeter">mm</option>
+        </select>
+
+        <div id="inputFields"></div>
+
+        <div id="result">
+            <button id="calculateButton">Hitung</button>
+            <div class = "volumeLuasPermukaan">
+              <p>Volume: <span id="volumeResult"></span> <span id="satuanResult1"></span></p>
+              <p>Luas Permukaan: <span id="luasPermukaanResult"></span> <span id="satuanResult2"></span></p>
+            </div>
+        </div>
+          <script src="Basing3.js"></script>
+    </div>
