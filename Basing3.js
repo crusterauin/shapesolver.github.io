@@ -185,7 +185,7 @@ calculateButton.addEventListener('click', () => {
     }
     
     satuanResult1.textContent= selectedString1 + '\xB3';
-    satuanResult2.textContent= selectedString2;
+    satuanResult2.textContent= selectedString2 + '\xB2';
     volumeResult.textContent = volume.toFixed(2);
     luasPermukaanResult.textContent = luasPermukaan.toFixed(2);
 });
