@@ -184,7 +184,7 @@ calculateButton.addEventListener('click', () => {
         selectedString2 = satuanMap[selectedSatuan];
     }
     
-    satuanResult1.textContent= selectedString1 + '\xB2';
+    satuanResult1.textContent= selectedString1 + '\xB3';
     satuanResult2.textContent= selectedString2;
     volumeResult.textContent = volume.toFixed(2);
     luasPermukaanResult.textContent = luasPermukaan.toFixed(2);
