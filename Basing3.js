@@ -111,7 +111,7 @@ calculateButton.addEventListener('click', () => {
     const selectedSatuan = satuan.value;
     
     // Ambil nilai dari input fields berdasarkan bentuk yang dipilih
-    let luas, keliling, selectedString1, selectedString2;
+    let volume, luasPermukaan, selectedString1, selectedString2;
 
     if (selectedShape === 'kubus') {
         const sisi = parseFloat(document.getElementById('sisi').value);
