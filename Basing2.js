@@ -20,6 +20,7 @@ shapeSelect.addEventListener('change', () => {
             <input type="number" id="alas">
             <label for="tinggi">Tinggi:</label>
             <input type="number" id="tinggi">
+            <img src="/Datar/Segitiga.png" style="width:200px">
         `;
     } else if (selectedShape === 'persegipanjang') {
         inputFields.innerHTML = `
@@ -27,11 +28,13 @@ shapeSelect.addEventListener('change', () => {
             <input type="number" id="panjang">
             <label for="lebar">Lebar:</label>
             <input type="number" id="lebar">
+            <img src="/Datar/persegipanjang.png" style="width:200px">
         `;
     } else if (selectedShape === 'persegi') {
         inputFields.innerHTML = `
             <label for="sisi">Sisi:</label>
             <input type="number" id="sisi">
+            <img src="/Datar/persegi.png" style="width:200px">
         `;
     } else if (selectedShape === 'trapesium') {
         inputFields.innerHTML = `
@@ -41,6 +44,7 @@ shapeSelect.addEventListener('change', () => {
             <input type="number" id="alasBawah">
             <label for="tinggiTrapesium">Tinggi:</label>
             <input type="number" id="tinggiTrapesium">
+            <img src="/Datar/trapesium.png" style="width:200px">
         `;
     } else if (selectedShape === 'belahketupat') {
         inputFields.innerHTML = `
@@ -48,6 +52,7 @@ shapeSelect.addEventListener('change', () => {
             <input type="number" id="d1">
             <label for="d2">Diagonal 2:</label>
             <input type="number" id="d2">
+            <img src="/Datar/belah ketupat.png" style="width:200px">
         `;
     } else if (selectedShape === 'layanglayang') {
         inputFields.innerHTML = `
@@ -55,21 +60,25 @@ shapeSelect.addEventListener('change', () => {
             <input type="number" id="d1">
             <label for="d2">Diagonal 2:</label>
             <input type="number" id="d2">
+            <img src="/Datar/layang2.png" style="width:200px">
         `;
     } else if (selectedShape === 'segienam') {
         inputFields.innerHTML = `
             <label for="sisi">Sisi:</label>
             <input type="number" id="sisi">
+            <img src="/Datar/Segienam.png" style="width:200px">
         `;
     } else if (selectedShape === 'segilima') {
         inputFields.innerHTML = `
             <label for="sisi">Sisi:</label>
             <input type="number" id="sisi">
+            <img src="/Datar/Segilima.png" style="width:200px">
         `;
     } else if (selectedShape === 'lingkaran') {
         inputFields.innerHTML = `
             <label for="jariJari">Jari-Jari:</label>
             <input type="number" id="jariJari">
+            <img src="/Datar/lingkaran.png" style="width:200px">
         `;
     } else if (selectedShape === 'jajargenjang') {
         inputFields.innerHTML = `
@@ -79,6 +88,7 @@ shapeSelect.addEventListener('change', () => {
             <input type="number" id="sisiB">
             <label for="tinggiJajargenjang">Tinggi:</label>
             <input type="number" id="tinggiJajargenjang">
+            <img src="/Datar/jajargenjang.png" style="width:200px">
         `;
     }
 });
